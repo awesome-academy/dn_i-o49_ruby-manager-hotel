@@ -5,7 +5,8 @@
 </span></h6>
 <p>
   <strong> <%= t :from %> </strong>
+
   <%= l booking_detail.date_in, locale: locale, format: :short %>
   <strong> <%= t :to %> </strong>
-  <%= l booking_detail.date_in, locale: locale %>
+  <%= l booking_detail.date_in, locale: locale, format: :short %>
 </p>
